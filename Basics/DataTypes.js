@@ -6,22 +6,22 @@ let isLogged = true
 // undefined
 // symbol // unique
 // object
-console.log(typeof undefined)
-console.log(typeof null);
+// console.log(typeof undefined)
+// console.log(typeof null);
 
 
 
 
-// CONVERSATION AND OPERATIONS
+// CONVERSATION 
 
 let score = "334hj"
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let scoreInNumber = Number(score)
-console.log(scoreInNumber);
-console.log(typeof(scoreInNumber))
+// console.log(scoreInNumber);
+// console.log(typeof(scoreInNumber))
 
 //33 => 33
 //"334jh" =>NaN
@@ -30,7 +30,7 @@ console.log(typeof(scoreInNumber))
 
 let log = 1;
 let Booleanlog = Boolean(log)
-console.log(Booleanlog);
+// console.log(Booleanlog);
 
 //1 = true and 0 => false
 //"" => false
@@ -38,8 +38,31 @@ console.log(Booleanlog);
 
 let str = 33
 let strString = String(str)
-console.log(strString);
-console.log(typeof strString);
+// console.log(strString);
+// console.log(typeof strString);
+
+
+//OPERATIONS
+let value = 4
+let negValue = -value
+// console.log(negValue)
+// console.log(2 + 2 );
+
+let str1 = "hi"
+let str2 = " rohan"
+let str3 = str1 + str2
+// console.log(str3);
+
+console.log("1" + 1);
+console.log(1 + "2");
+console.log("1"+ 2 + 2);
+console.log(1 + 2 + "3");
+console.log(1 + 2 + "3" + 1 + 2 );
+
+
+
+
+
 
 
 
