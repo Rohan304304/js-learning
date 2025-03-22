@@ -31,3 +31,37 @@ const myFun = function(){
     console.log("hello world")
 }
 console.log(myFun)
+
+// Stack(primitive) and Heap memory(non-primitive)
+
+const num1 = 33
+let num2 = num1
+
+// console.log(num1);
+// console.log(num2);
+
+num2 = 333
+
+// console.log(num1);
+// console.log(num2);
+
+let num3 = {
+  email : "g@gmail.com",
+  acc : "current"
+}
+
+let num4 = num3
+
+console.log(num3)
+console.log(num4);
+
+num4.acc = "savings"
+console.log(num3)
+console.log(num4);
+
+
+
+
+
+
+
